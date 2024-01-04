@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.task1{
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+.t_1{
+    height: 200px;
+    width: auto;
+    background-color: white;
+}
+.t_2{
+    height: 300px;
+    width: auto;
+    background-color: rgb(134, 249, 241);
+}
+.t_3{
+    height: 325px;
+    width: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    padding: 10px;
+}
+.t_4{
+    height: 325px;
+    width: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 390px;
+    padding: 10px;
+}
+.t_5{
+    height: 325px;
+    width: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 125px;
+    right: 390px;
+    padding: 10px;
+}
+.t_6{
+    height: 325px;
+    width: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 75px;
+    right: 100px;
+    padding: 10px;
+
+}
+.Task2{
+    height: 1250px;
+    width: auto;
+    position: relative;
+}
+.t2_1{
+    height: 600px;
+    width: auto;
+    background-color: aliceblue;
+}
+.t2_2{
+    height: 400px;
+    width: auto;
+    background-color: rgb(199, 196, 196);
+}
+.t2_3{
+    height: 250px;
+    width: auto;
+    background-color: aliceblue;
+}
+#t_h3{
+    color: black;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+#t_h{
+    font-size: 50px;
+}
+.t_p{
+    font-size: large;
+    line-height: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+#b1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(92, 92, 249);
+    border-radius: 25px;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: white;
+}
+.t2_4{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    padding: 25px;
+    top: 500px;
+    left: 200px;
+    background-color: white;
+}
+.t2_5{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    padding: 25px;
+    top: 400px;
+    right: 200px;
+    background-color: white;
+
+}
+.t2_6{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    padding: 25px;
+    top: 750px;
+    right: 200px;
+    background-color: white;
+}
+.t2_7{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    padding: 25px;
+    top: 850px;
+    left: 200px;
+    background-color: white;
+}
+.t2_p2{
+    font-size: 17px;
+    opacity: 0.80;
+}

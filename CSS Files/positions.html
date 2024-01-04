@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS</title>
+    <style>
+        .static{
+          height:300px;
+          width: 400px;
+          border: 2px solid black;
+          font-size: larger;
+          background-color: antiquewhite;
+         }
+         .relative{
+          height:300px;
+          width: 400px;
+          border: 2px solid black;
+          font-size: larger;
+          position: relative;
+          top: 50px;
+          left: 100px;
+          background-color: blueviolet;
+         }
+         .absoluteparent{
+          height:500px;
+          width: 500px;
+          border: 2px double black;
+          font-size: larger;
+          position: relative;
+          background-color: yellowgreen;
+         }
+         .absolutechild{
+          height:300px;
+          width: 400px;
+          border: 2px double black;
+          font-size: larger;
+          position: absolute;
+          top: 100px;
+          bottom: 100px;
+          background-color: yellow;
+         }
+         .absolutebody{
+          height:300px;
+          width: 400px;
+          border: 2px double black;
+          font-size: larger;
+          position: absolute;
+          top: 100px;
+          bottom: 100px;
+          background-color: brown;
+         }
+         .fixed{
+          height:100px;
+          width: 500px;
+          border: 2px solid black;
+          font-size: larger;
+          position: fixed;
+          bottom: 0px;
+          right: 0px;
+          background-color: rgb(161, 161, 201);
+         }
+         .sticky{
+          height:100px;
+          width: auto;
+          border: 2px solid black;
+          font-size: larger;
+          position: sticky;
+          top: 0px;
+          background-color: rgb(204, 90, 153);
+         }
+
+    </style>
+</head>
+<body>
+    <center><h1>Positions in CSS</h1></center>
+    <hr>
+    <div class="sticky"><center><h3>Sticky</h3></center></div><hr>
+    <div class="static"><center><h3>static</h3></center></div><hr>
+    <div class="relative"><center><h3>Relative</h3></center></div><br><br><br><hr>
+    <div class="absoluteparent">
+        <center><h3>Absolute parent
+        </h3></center>
+        <div class="absolutechild"><center><h3>Absolute child</h3></center></div>
+    </div><hr>
+    <div class="fixed"><center><h3>I'm fixed here</h3></center></div>
+</body>
+</html>

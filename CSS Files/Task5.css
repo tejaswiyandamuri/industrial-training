@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 1000px;
+    width: auto;
+    background-color: ghostwhite;
+    position: relative;
+}
+#m_h1{
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.m_div{
+    height: 205px;
+    width: 330px;
+    padding: 25px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.m_1{
+   
+    border-top: 25px solid rgb(227, 21, 141);
+    position: absolute;
+    top: 110px;
+    left: 30px;
+ 
+}
+.m_2{
+    border-top: 25px solid rgb(16, 243, 243);
+    position: absolute;
+    top: 110px;
+    left: 443px;
+}
+.m_3{
+    
+    position: absolute;
+    top: 110px;
+    right: 30px;
+    background-color: white;
+    border-top: 25px solid rgb(46, 214, 71);
+}
+.m_4{
+  
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    border-top: 25px solid rgb(216, 228, 51);
+}
+.m_5{
+   
+    border-top: 25px solid rgb(187, 102, 232);
+    position: absolute;
+    top: 430px;
+    left: 443px;
+}
+.m_6{
+   
+    border-top: 25px solid rgb(232, 75, 167);
+    position: absolute;
+    top: 430px;
+    right: 30px; 
+}
+i{
+    font-size: 50px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+button{
+    height: 75px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(227, 21, 141);
+    position: absolute;
+    top: 750px;
+    left: 540px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}

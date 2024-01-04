@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    height: 900px;
+    width: 700px;
+    position: relative;
+}
+#right{
+    height: 900px;
+    width: 400px;
+    float: right;
+    background-color: rgb(163, 214, 207);
+    position: relative;
+}
+#left{
+    height: 900px;
+    width: 300px;
+    float: left;
+    background-color: rgb(62, 89, 115);
+    position: relative;
+}
+.imgdiv{
+    height: 180px;
+    width: 150px;
+    background-color: white;
+    
+}
+img{
+    height: 200px;
+    width: 180px;
+}
+.contact{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(62, 89, 115);
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    color: white;
+    font-size: small;
+}
+i{
+    color: beige;
+    float: left;
+    font-size: 18px;
+}
+.details{
+    height: 450px;
+    width: 250px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    top: 480px;
+    left: 50px;
+}
+.d_h2{
+    float: left;
+}
+.hr1{
+    height: 5px;
+    background-color: rgb(237, 237, 164);
+}
+.p1{
+    font-size: medium;
+    float: left;
+}
+#namediv{
+    height: 130px;
+    width: 465px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    background-color: rgb(237, 218, 196);
+    font-family: 'Roboto', sans-serif;
+}
+.Education{
+    height: 450px;
+    width:350px;
+    float: right;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.p2{
+    float: left;
+    opacity: 0.8;  
+}
+h3{
+    float: left;
+}
+

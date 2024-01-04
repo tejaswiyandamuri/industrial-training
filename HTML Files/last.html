@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .top{
+            height: 400px;
+            width: 200px;
+            border: 2px solid black;
+            float: left;
+            padding: 5px;
+        }
+        .btm{
+            height: 250px;
+            width: 200px;
+            border: 2px solid black;
+            padding: 5px;
+            position: absolute;
+            top: 410px;
+        }
+        .indiv{
+            height: 300px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+            margin-top: 30px;
+        }
+        .bluediv{
+            height: 98px;
+            width: 88px;
+            border: 1px solid rgb(169, 169, 219);
+            background-color: rgb(12, 156, 205);
+            margin: 0px;
+            padding: 0px;
+        }
+        .greendiv{
+            height: 98px;
+            width: 88px;
+            border: 1px solid  rgb(13, 228, 13);
+            background-color: rgb(22, 220, 22);
+            margin: 0px;
+            padding: 0px;
+        }
+        .relative2{
+            position: relative;
+            toP: 10px;
+            left: 10px;
+        }
+        .absolute2{
+            position: absolute;
+            right: 4px;
+        }
+        .indiv2{
+            height: 200px;
+            width: 180px;
+            border: 1px solid black;
+            overflow-y: scroll;
+        }
+        .indiv1{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            overflow-x: scroll;
+        }
+        .fixed{
+            height: 100px;
+            width: 100px;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            background-color: yellowgreen;
+        }
+        .botg
+        {
+            position: sticky;
+            bottom: 0px;
+        }
+        .brblue{
+            height: 100px;
+            width: 400px;
+            background-color: blue;
+            display: inline-flex;
+        }
+        .brgreen{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            position: sticky;
+            right: 0px;
+        }
+        .blgreen{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            position: sticky;
+            left: 0px;
+        }
+        .blued{
+            height: 400px;
+            width: 88px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed"></div>
+    <div class="top">
+        <h3> position : static</h3>
+        <div class="indiv">
+            <div class="bluediv"></div>
+            <div class="greendiv"></div>
+            <div class="bluediv"></div>
+        </div>
+    </div>
+    <div class="top">
+        <h3> position : relative</h3>
+        <div class="indiv" >
+            <div class="bluediv"></div>
+            <div class="greendiv relative2"></div>
+            <div class="bluediv"></div>
+        </div>
+    </div>
+    <div class="top">
+        <h3> position : absolute</h3>
+        <div class="indiv" style="position: relative;">
+            <div class="bluediv"></div>
+            <div class="greendiv absolute2"></div>
+            <div class="bluediv"></div>
+        </div>
+    </div>
+    <div class="top">
+        <h3> position : fixed</h3>
+        <div class="indiv">
+            <div class="bluediv" style="position: fixed;"></div>           
+            <div class="bluediv" style="position: fixed; toP: 180px;"></div>
+        </div>
+    </div>
+    <div class="btm">
+        <h3> position :Stickytop</h3>
+        <br>
+        <div class="indiv2">
+            <div class="greendiv " style="position: sticky; top: 0px;"></div>
+            <div class="bluediv"></div>
+            <div class="bluediv"></div>
+        </div>
+    </div>
+    <div class="btm" style="left: 214px;">
+        <h3> position :StickyBottom</h3>
+        <br>
+        <div class="indiv2">
+            <div class="blued"></div>
+            <div class="greendiv" style="position: sticky; bottom:0px;"></div>
+        </div>
+    </div>
+    <div class="btm" style="left: 428px; ">
+        <h3> position :Stickyleft</h3>
+        <br>
+        <div class="indiv1">
+            <div class="brblue"> <div style="width: 100px;"></div><div class="blgreen"></div><div style="width: 200px;"></div></div>            
+        </div>
+    </div>
+    <div class="btm" style="left: 642px; ">
+        <h3> position :StickyRight</h3>
+        <br>
+        <div class="indiv1">
+            <div class="brblue"><div style="width: 250px;"></div><div class="brgreen"></div></div>            
+        </div>
+    </div>
+</body>
+</html>

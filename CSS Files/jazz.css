@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#top{
+    height: 2500px;
+    width: auto;
+    background-image: url(../Images/piano1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#t_1{
+    height: 2000px;
+    width: 2000px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    padding: 20px;
+}
+#t_profile{
+    height: 300px;
+    width: 300px;
+    display: inline;
+    float: left;
+    border: 2px solid gold;
+    border-radius: 150px;
+    background-image: url(../Images/caty.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

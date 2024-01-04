@@ -1,0 +1,76 @@
+.top
+{
+    height: 98px; width: 700px; border-bottom: 2px solid black;
+}
+.topleft
+{
+    height: 100px; width: 98px; border-right: 2px  solid black; float: left;
+}
+.topright
+{
+    height: 100px; width: 98px; border-left: 2px  solid black; float: right;
+}
+.toprightin1
+{
+    height: 48px; width: 98px; border-top: 2px solid black;
+}
+#toprightin2
+{
+    height: 48px; width: 47px; border-right: 2px solid black; float: left;
+}
+#botleft
+{
+    height: 400px; width: 98px; border-right: 2px  solid black; float: left;
+}
+#botlefttop
+{
+    height: 250px; width: 98px;
+}
+#botleftbot1
+{
+    height: 148px; width: 98px; border-top: 2px solid black;
+}
+#botleftbot2
+{
+    height: 148px; width: 47px; border-right: 2px solid black; float: left;
+}
+#botright
+{
+    height: 400px; width: 600px; float: right;
+}
+#botright1
+{
+    height:98px; width: 600px; border-bottom: 2px solid black;
+}
+#botright2
+{
+    height: 300px; width: 600px;
+}
+#brparent1
+{
+    height: 300px; width: 198px; border-right: 2px solid black; float: left;
+}
+#brparent2
+{
+    height: 300px; width: 400px; float: right;
+}
+#brparent2_1
+{
+    height:98px; width: 400px; border-bottom: 2px solid black;
+}
+#brparent2_2
+{
+    height: 200px; width: 400px;
+}
+#brparent2_21
+{
+    height: 200px; width: 148px; border-right: 2px solid black; float: left;
+}
+#brparent2_22
+{
+    height: 200px; width: 148px; border-left: 2px solid black; float: right;
+}
+tr{
+    height: 100px;
+    width: 10000px;
+}

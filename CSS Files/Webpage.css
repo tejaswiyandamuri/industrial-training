@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(214, 190, 190);
+}
+#head{
+    height: 60px;
+    width: 1200px;
+    background-color: beige;
+    margin: 10px;
+    margin-left: 20px;
+}
+#b1
+{
+    background-color: green;
+    margin: 2px;
+}
+#b2
+{
+    background-color: skyblue;
+    margin: 2px;
+}
+#b3
+{
+    background-color: skyblue;
+    margin: 2px;
+}
+#b4
+{
+    background-color: skyblue;
+    margin: 2px;
+}
+#parent{
+    height: 800px;
+    width: 1200px;
+    display: inline-flex;
+}
+#profilediv
+{
+    float: left;
+    background-color: beige;
+    margin: 10px;
+    margin-left: 40px; 
+    height: 450px;
+    width: 380px;
+    padding: 10px;
+    display: inline;
+}
+#usericon
+{
+    font-size: 70px;
+}
+#F
+{
+    background-color: rgb(115, 115, 184);
+}
+#M{
+    border: 1px solid blue;
+}
+i
+{
+    font-size: 25px;
+}
+#Details
+{
+    height: 600px;
+    width: 800px;
+    background-color:  rgb(214, 190, 190);
+}
+#userform
+{
+    height: 220px;
+    width: 770px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: beige;
+    float: right;
+    padding: 10px;
+    display: inline;
+}
+input{
+    float: right;
+    width: 550px;
+    height: 25px;
+    margin: 5px;
+    display: inline;
+}
+label
+{
+    font: bold;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    margin-bottom: 5px;
+    float: left;
+   display: inline;
+}
+#Statusdiv
+{
+    height: 250px;
+    width: 770px;
+    background-color: beige;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+}
+#Save
+{
+    float: right;
+    margin-right: 460px;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(14, 150, 204);
+}
+.Progresslabel
+{
+    height: 20px;
+    width: 150px;
+    font-family: bold;
+    display: inline;
+    float: left;
+}
+progress
+{
+    height: 20px;
+    width: 550px;
+    float: right;
+    display: inline;
+}

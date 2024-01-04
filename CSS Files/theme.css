@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.intro{
+    height: 650px;
+    width: 800px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(196, 248, 237);
+    position: absolute;
+    left: 230px;
+    right: 200px;
+}
+h1{
+    color: rgba(48, 154, 10, 0.792);
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+#image{
+    height: 350px;
+    width: 300px;
+    float: right;
+}
+#i_in{
+    height: 350px;
+    width: 600px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 110px;
+    right: 110px;
+    margin-top: 20px;
+}
+#i_in2{
+    height: 330px;
+    width: 270px;
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+#i_in3{
+    height: 250;
+    width: 400px;
+}
+.b1{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(56, 209, 115);
+}
+.Advertise{
+    height: 650px;
+    width: 800px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(245, 249, 248);
+    position: absolute;
+    top: 670px;
+    left: 230px;
+    right: 200px;
+}
+.A_top{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.AT_l{
+    height: 250px;
+    width: 266px;
+    float: left;
+}
+.AT_r{
+    height: 250px;
+    width: 264px;
+    float: right;
+}
+.A_i1{
+    font-size: 50px;
+}
+.watermark{
+    color: rgb(181, 176, 176);
+    font-size: 90px;
+}
+.waterdiv{
+    position: absolute;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    left: 60x;
+}
+.A_h{
+    font-family: 'Roboto', sans-serif;
+}
+.A_in1{
+    position: absolute; 
+    height: 190px;
+    width: 260px;
+    text-align: left;
+}
+.A_p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.features{
+    height: 760px;
+    width: 820px;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    position: absolute;
+    top: 1340px;
+    left: 230px;
+    right: 200px;
+}
+.f_in1{
+    height: 430px;
+    width: 800px;
+    background-color:  rgb(196, 248, 237);
+    padding: 10px;
+}
+.F_in2{
+    height: 350px;
+    width: 180px;
+    margin: 10px;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+}
+.F_in3{
+    height: 260px;
+    width: 350px;
+    padding-left: 10px;
+    background-color: rgb(237, 237, 208);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.F_in4{
+    height: 260px;
+    width: 350px;
+    padding-left: 10px;
+    background-color: rgb(157, 246, 230);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+.FI1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(245, 159, 54);
+}
+.FI2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(23, 249, 208)
+}
+.F_image{
+    height: 150px;
+    width: 150px;
+}
+.F_p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(129, 127, 127);
+}
+.AB_con{
+    position: relative;
+    top: 2100px;
+    left: 230px;
+    right: 200px;
+}
+.About{
+    height: 870px;
+    width: 820px;
+    align-items: center;
+    background-color: rgb(244, 244, 212);
+}
+.AB_in1{
+    height: 650px;
+    width: 490px;
+    padding: 10px;
+    float: left;
+}
+.AB_p{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    line-height: 30px;
+}
+.AB_in2{
+    height: 670px;
+    width: 300px;
+    float: right;
+}
+.AB_image{
+    height: 200px;
+    width: 200px;
+    background-image: url('../Images/whatsapp.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 120px;
+    border: 10px solid rgba(3, 228, 119, 0.708);
+    margin: 50px;
+}
+.b2{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(33, 223, 122);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+.mid{
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    top: 700px;
+    border-radius: 40px;
+}
+.b3{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(5, 243, 120);
+    font-family: 'Roboto', sans-serif;
+}
+.M_p{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+.Contact{
+    height: 670px;
+    width: 820px;
+    background-color: rgb(196, 248, 237);
+}
+.C_in1{
+    height: 250px;
+    width: 820px;
+}
+.C_in2{
+    height: 350px;
+    width: 750px;
+    padding: 35px;
+}
+.C_p{
+    font-family: cursive;
+    font-size: larger;
+    display: inline;
+}
+.C_p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    line-height: 30px;
+    display: inline;
+}
+.C_p0{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(26, 166, 47);
+}
+.C_in3{
+    height: 300px;
+    width: 100px;
+    padding: 25px;
+    position: absolute;
+    top: 1120px;
+    left: 370px;
+}
+.C_form{
+    height: 300px;
+    width: 230px;
+    position: absolute;
+    top: 1150px;
+    left: 570px;
+}
+input{
+    height: 30px;
+    width: 225px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    float: right;
+}
+.b4{
+    height: 30px;
+    width: 225px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    float: right;
+    background-color: rgb(1, 130, 65);
+}
+.foot{
+    height: 170px;
+    width: 820px;
+    background-color: rgb(42, 40, 40);
+    position: absolute;
+    top: 3640px;
+    left: 230px;
+    right: 200px;
+}
+.Fo_p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+#intro_p{
+    font-size: medium;
+    font-style: normal;
+}
