@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="../Bootstrap/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Task 7</title>
+    <style>
+        body{
+            background-color: ghostwhite;
+        }
+        .container-fluid{
+            margin-top: 10px;
+        }
+        .i1{
+            font-size: 35px;
+            display: inline;
+        }
+        .i2{
+            font-size: 25px;
+            position: relative;
+            top: 5px;
+        }
+        .r1{
+            height: 45px;
+            margin-bottom: 10px;
+        }
+        .sinput{
+            width: 200px;
+        }
+        .form1{
+            position: relative;
+            bottom: 33px;
+            left: 40px;
+        }
+        img{
+            height: 35px;
+            width: 35px;
+        }
+        .col1{
+            padding: 50px;
+            height: 200px;
+            background-color: #1d66e6;
+            color: white;
+        }
+        .r2{
+            position: relative;
+            bottom: 80px;
+        }
+        .card{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        .table{
+            position: relative;
+            bottom: 40px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row r1">
+            <div class="col text-start">
+                <i class="fa-solid fa-bars i1" style="color: #9c9fa5;"></i>
+                <form class="d-flex form1" role="search">
+                    <input class="form-control me-2 sinput" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary b1" type="submit" >Search</button>
+                </form>            
+            </div>
+            <div class="col text-end">
+                <i class="fa-regular fa-bell i2" style="color: #1056d1;"></i>
+                <img src="../Images/ww3.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col1">
+                <h3 style="float: left;"> Projects</h3>            
+                <button type="button" class="btn btn-light" style="float: right;">Create New Project</button>
+            </div>
+        </div>
+        <div class="row r2">
+            <div class="col">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Projects</h5>
+                          <i class="fa-solid fa-bars" style="color: #9c9fa5; position: relative;  bottom: 27px; float: right;"></i>
+                          <h1>123</h1>
+                          <p style="opacity: 0.7; margin: 0px;"> 20 completed</p>
+                        </div>
+                    </div>   
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Projects</h5>
+                      <i class="fa-solid fa-bars" style="color: #9c9fa5; position: relative;  bottom: 27px; float: right;"></i>
+                      <h1>123</h1>
+                      <p style="opacity: 0.7; margin: 0px;"> 20 completed</p>
+                    </div>
+                </div>   
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Projects</h5>
+                      <i class="fa-solid fa-bars" style="color: #9c9fa5; position: relative;  bottom: 27px; float: right;"></i>
+                      <h1>123</h1>
+                      <p style="opacity: 0.7; margin: 0px;"> 20 completed</p>
+                    </div>
+                </div>   
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Projects</h5>
+                      <i class="fa-solid fa-bars" style="color: #9c9fa5; position: relative;  bottom: 27px; float: right;"></i>
+                      <h1>123</h1>
+                      <p style="opacity: 0.7; margin: 0px;"> 20 completed</p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" style="opacity: 0.5;" colspan="5"> Active Projects</th>
+                </tr>
+              <tr>
+                <th scope="col" style="opacity: 0.5;" >Project Name</th>
+                <th scope="col" style="opacity: 0.5;" >Hours</th>
+                <th scope="col" style="opacity: 0.5;" >Priority</th>
+                <th scope="col" style="opacity: 0.5;" >Members</th>
+                <th scope="col" style="opacity: 0.5;" >Progress</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <i class="fa-brands fa-dropbox" style="color: #567cbd;"></i> Dropbox Design system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+              <tr>
+                <td><i class="fa-brands fa-slack" style="color: #f0d138;"></i> Slack system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+              <tr>
+                <td><i class="fa-brands fa-github" style="color: #0d0d0d;"></i> Github system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+              <tr>
+                <td><i class="fa-solid fa-cubes" style="color: #63E6BE;"></i> 3D Design system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+              <tr>
+                <td><i class="fa-solid fa-layer-group" style="color: #1e8a0f;"></i> Webapp Design system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+              <tr>
+                <td><i class="fa-brands fa-github" style="color: #0d0d0d;"></i> Github system</td>
+                <td> 23</td>
+                <td>High</td>
+                <td><img src="../Images/ww3.png" alt=""></td>
+                <td>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>

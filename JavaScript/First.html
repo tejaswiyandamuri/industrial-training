@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('Hello Bitch!!!!!')"> Click</button> <br> <br>
+    <button onclick="internalfunc()"> Internal JS</button> <br><br>
+    <button onclick="externalfunc()"> External JS </button>
+    <hr>
+    <button onclick="add()"> ADD</button>
+</body>
+</html>
+<script>
+    //External has the high priority than internal ja
+    function internalfunc(){
+        alert('internal js Bitch !!');
+    }
+    // var Keyword
+    {
+        //global scope
+        var var1="sdf";
+       console.log(var1);
+       var1="dwrt";
+       console.log(var1);
+       var var1="sdf";
+       console.log(var1);
+    }
+    // let Keyword
+    {
+        //local scope
+        let var2='1234';
+        console.log(var2)
+        var2='2341';
+        console.log(var2);
+        // no re-declaration
+    }
+    // const Keyword
+    {
+        const var3="Teju";
+        console.log(var3);
+        //no redeclaration and re-assign
+    }
+    //DATA TYPES
+    {
+        //String
+        var name="String";
+        var name2='1234';
+        console.log(typeof(name));
+        console.log(typeof(name2));
+        //number
+        var name3=1234;
+        console.log(typeof(name3));
+        // boolean
+        var name4=true;
+        console.log(typeof(name4));
+        //null
+        var name5=null;
+        console.log(typeof(name5));
+        //undefined
+        var name6;
+        console.log(typeof(name6));
+        //array
+        //heterogeneous data values can be stored in an array
+        var name7=["teju", "akshaya"];
+        console.log(typeof(name7));
+        var arr1=["a",123,true]
+        console.log(arr1);
+        console.log(typeof(arr1));
+        arr1[3]=[1, 2, 3];
+        console.log(arr1[3])
+        console.log(arr1.length);
+        console.log(typeof(arr1[3]));
+        console.log(arr1[3].length)
+        console.log(typeof(arr1[2]));
+        console.log(arr1);
+    }
+    // objects in js
+    {
+        var student=
+        {
+           'name':"teju" ,
+            'college':"ADTP",
+            'pin':"21255-CM-066"
+        }
+        console.log(student);
+        student.age=18;
+        console.log(student)
+        delete student.age;
+        console.log(student)
+        student['age']=18;
+        console.log(student)
+
+    }
+    //Task on Objects
+    {
+        // let user1={
+        //     'name':"teju" ,
+        //     'college':"ADTP",
+        //     'pin':"21255-CM-066"
+        // }
+        // let user2={
+        //     'name':"Akshaya" ,
+        //     'college':"ADTP",
+        //     'pin':"21255-CM-089"
+        // }
+        // let user2={
+        //     'name':"Purna" ,
+        //     'college':"ADTP",
+        //     'pin':"21255-CM-089"
+        // }
+        
+        //USING ARRAY
+        var arr=[
+            user1=
+            {
+               'name':"teju" ,
+              'college':"ADTP",
+              'pin':"21255-CM-066"
+            },
+            user2=
+            {
+              'name':"Akshaya" ,
+              'college':"ADTP",
+              'pin':"21255-CM-089"
+            },
+            user3=
+            {
+                'name':"Purna" ,
+                'college':"ADTP",
+                'pin':"21255-CM-089" 
+            },
+            user4=
+            {
+               'name':"teju" ,
+              'college':"ADTP",
+              'pin':"21255-CM-066"
+            },
+            user5=
+            {
+              'name':"Akshaya" ,
+              'college':"ADTP",
+              'pin':"21255-CM-089"
+            },
+            user6=
+            {
+                'name':"Purna" ,
+                'college':"ADTP",
+                'pin':"21255-CM-089" 
+            },
+            user4=
+            {
+               'name':"teju" ,
+              'college':"ADTP",
+              'pin':"21255-CM-066"
+            },
+        ]
+        console.log(arr[0].name);
+
+        //USING OBJECTS
+        var obj={
+            Purna:
+            {
+                'name':"Purna" ,
+                'college':"ADTP",
+                'pin':"21255-CM-089" 
+            },
+            Akshaya:
+            {
+              'name':"Akshaya" ,
+              'college':"ADTP",
+              'pin':"21255-CM-089"
+            },
+            Teju:
+            {
+               'name':"teju" ,
+              'college':"ADTP",
+              'pin':"21255-CM-066"
+            },
+        }
+        console.log(obj.Teju.pin)
+        // FUNCTIONS
+        // ALERT like methods
+        {
+            alert('Alert for nothing');
+            confirm('hello!!');
+            prompt('Say something');
+        }
+        //Task to add two numbers using prompt
+        {
+            function add(){
+                let a=parseInt(promot('Enter a value'));
+                let b=parseInt(promot('Enter a value'));
+                alert(a+b);
+            }
+        }
+    }
+</script>

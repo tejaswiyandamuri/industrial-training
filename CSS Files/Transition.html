@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .tran{
+            height: 300px;
+            width: 300px;
+            background-color: burlywood;
+            border: 1px solid black;
+            transition: border 3s  2s;
+            transition-property: background-color;
+            transition-delay: 4s;
+
+        }
+        .tran:hover{
+            background-color: yellowgreen;
+            transform: scale(0.5);
+            border-radius: 300px;
+        }
+        .parent{
+            height: 300px;
+            width: 300px;
+            background-color: burlywood;
+            border: 1px solid black;
+        }
+        .anim{
+            height: 300px;
+            width: 300px;
+            background-color: burlywood;
+            border: 1px solid black;
+            animation-name: first;
+            animation-duration: 10s;
+        }
+        @keyframes first{
+            from{
+                border-radius: 10px;
+                transform: scale(2);
+            }
+            to{
+                background-color: rgb(116, 241, 97);
+                transform: skewy(200deg);
+                border-radius: 150px;
+                box-shadow: 1px 1px 2px gray;
+            }
+        }
+        .two{
+            height: 50px;
+            width: 50px;
+            background-color: burlywood;
+            border: 1px solid black;
+            animation-name: Second;
+            animation-duration: 10s;
+            position: relative;
+        }
+        @keyframes Second{
+            0%{
+                height: 100px;
+                width: 100px;
+                border-radius: 50px;
+                top: 0px;
+                left: 0px;
+                background-color: yellowgreen;
+            }
+            25%{
+                top: 300px;
+                left: 0px;
+            }
+            50%{
+                left: 500px;
+                top: 300px;
+            }
+            75%{
+                left: 0px;
+                top: 0px;
+                transform: scale(3);
+                border-radius: 150px;
+            }
+            100%{
+                top: 0px;
+                left: 900px;
+                transform: scale(2);
+                border-radius: 100px;
+                transform: skewX(150deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1> Transitions</h1>
+        <hr>
+        <div class="tran"></div>
+        <hr>
+        <h1>Animations</h1>
+        <div class="anim"></div>
+        <hr>
+        <div class="parent">
+            <div class="two"></div>
+        </div>
+    </center>
+    
+</body>
+</html>

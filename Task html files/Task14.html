@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            margin: 5px;
+        }
+        .p{
+            height: 620px;
+            width: auto;
+            position: relative;
+        }
+        .a{
+            height: 610px;
+            width: 610px;
+            background-color: greenyellow;
+            float: left;
+            margin: 5px;
+        }
+        .b{
+            height: 300px;
+            width: 305px;
+            float: left;
+        }
+        .b1{
+            background-color: tomato;
+        }
+        .b2{
+            background-color: brown;
+        }
+        .b3{
+            background-color: rgb(167, 83, 83);
+        }
+        .b4{
+            background-color: rgb(126, 14, 100);
+        }
+        .po2{
+           float: right;
+        }
+        @media screen and (max-width: 690px){
+            .a{
+                width: 100%;
+            }
+            .b{
+                width: 100%;
+            }
+        }
+        @media screen and ( min-width: 701px) and (max-width: 945px){
+            .a{
+                width: 100%;
+            }
+            .b{
+                width: 48.5%;
+            }
+        }
+        @media screen and ( min-width: 948px) and (max-width: 1000px){
+            .a{
+                width: 100%;
+            }
+            .b{
+                width: 23.5%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="p">
+    <div class="a"></div>
+    <div class="b b1"></div>
+    <div class="b b2"></div>
+    <div class="b b3"></div>
+    <div class="b b4"></div>
+   </div>
+   <div class="p">
+    <div class="a" style="float: right;"></div>
+    <div class="b b1"></div>
+    <div class="b b2"></div>
+    <div class="b b3 po"></div>
+    <div class="b b4 po2"></div>
+   </div>
+</body>
+</html>

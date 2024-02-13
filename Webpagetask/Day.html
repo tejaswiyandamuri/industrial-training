@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="../Bootstrap/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .c1{
+            background-image: url(../Images/brahmi2.jpeg);
+            background-size:cover;
+            height: 800px;
+            background-attachment: fixed;
+        }
+        .floating { 
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 c1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12" style="height: 500px; background-color: rgb(122, 155, 57); opacity: 0.5;">
+                <div class="floating" style=
+            "height: 150px; width: 150px;
+            background: rgb(200, 200, 200);
+            padding: 10px">
+        Arsalan
+    </div>
+            </div>
+        </div>
+            
+    </div>
+</body>
+</html>

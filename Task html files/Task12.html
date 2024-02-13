@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .left{
+            height: 480px;
+            width: 530px;
+            float: left;
+            margin-top: 20px;
+            padding: 40px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .right{
+            height: 480px;
+            width: 550px;
+            float: right;
+            margin-top: 20px;
+            padding: 40px;
+        }
+        input,button,select{
+            height: 35px;
+            margin-top: 20px;
+            border: 1.5px groove gray;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+        .l{
+            width: 253px;
+            float: left;
+            margin-right: 12px ;
+        }
+        #mail{
+            width: 540px;
+        }
+        .r{ 
+            width: 260px;
+            float: right;
+        }
+        #ph{
+            width: 90px;
+        }
+        #ph0{
+            width: 445px;
+            margin-left: 0px;
+        }
+        #job{
+            width: 545px;
+            margin-top: 50px;
+        }
+        button{
+            width: 550px;
+            color: white;
+            font-size: 15px;
+        }
+        #Create{
+            background-color: rgb(12, 101, 131);
+            border-color: lightgray;
+            margin-bottom: 10px;
+        }
+        .h1{
+            height: 2px;
+            width: 250px;
+            position: relative;
+            top: 23px;
+        }
+        .p1{
+            position: relative;
+            display: inline;
+            left: 260px;
+            top: 10px;
+        }
+        .hrr{
+            height: 2px;
+            width: 250px;
+            position: relative;
+            left: 290px;
+        }
+        .Continue{
+            background-color: rgb(6, 59, 77);
+        }
+        .icon{
+            position: absolute;
+            top: 20px;
+            left: 0px;
+        }
+        @media screen and (max-width: 900px){
+           .rigth,.left{
+            height: 100%;
+            width: 100%;
+            float: left;
+           }
+        }
+    </style>
+</head>
+<body><br><br>
+    <h3>Company Name</h3>
+    <div class="left">
+        <img src="../Images/pic3.png" alt=""><br><br>  
+        <h1> Create an account</h1> 
+        <h4 style="opacity: 0.7;"> create an account to use all the features <br>  of our website</h4>
+    </div>
+    <div class="right">
+        <form action="" style="position: relative;">
+            <i class="fa-solid fa-user-secret icon"></i>
+            <input type="text" placeholder="firstname" class="l">
+            <input type="text" placeholder="lastname" class="r">
+            <input type="text" placeholder="Email address" id="mail">
+            <select name="" id="ph">
+                <option value="+91">+91</option>
+            </select>
+            <input type="number" placeholder="phone number" id="ph0">
+            <select name="" id="job">
+                <option value=" job "> select job</option>
+            </select>
+            <input type="password" placeholder="password" class="l">
+            <input type="password" placeholder="Confirm password" class=" r">
+            <button id="Create">Create Account</button>
+            <hr class="h1"><p class="p1">Or</p><hr class="hrr">
+            <button class="Continue">Continue with Facebook</button>
+            <button class="Continue">Continue with Twitters</button>
+        </form>
+    </div>
+</body>
+</html>

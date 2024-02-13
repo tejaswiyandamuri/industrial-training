@@ -3,34 +3,42 @@
     margin: 0px;
 }
 body{
-    background-color: rgb(214, 190, 190);
+    background-color: rgb(227, 237, 248);
+    font-family: 'Roboto', sans-serif;
+}
+button,select{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+}
+img{
+    height: 100px;
+    width: 100px;
 }
 #head{
     height: 60px;
     width: 1200px;
-    background-color: beige;
+    background-color: white;
     margin: 10px;
     margin-left: 20px;
+    border-radius: 10px;
 }
 #b1
 {
     background-color: green;
-    margin: 2px;
 }
 #b2
 {
     background-color: skyblue;
-    margin: 2px;
 }
 #b3
 {
     background-color: skyblue;
-    margin: 2px;
 }
 #b4
 {
     background-color: skyblue;
-    margin: 2px;
 }
 #parent{
     height: 800px;
@@ -40,13 +48,15 @@ body{
 #profilediv
 {
     float: left;
-    background-color: beige;
+    background-color: white;
     margin: 10px;
     margin-left: 40px; 
     height: 450px;
     width: 380px;
     padding: 10px;
     display: inline;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 #usericon
 {
@@ -54,9 +64,11 @@ body{
 }
 #F
 {
+    margin-top: 10px;
     background-color: rgb(115, 115, 184);
 }
 #M{
+    color: black;
     border: 1px solid blue;
 }
 i
@@ -67,19 +79,21 @@ i
 {
     height: 600px;
     width: 800px;
-    background-color:  rgb(214, 190, 190);
 }
 #userform
 {
-    height: 220px;
+    height: 250px;
     width: 770px;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: beige;
+    background-color: white;
     float: right;
     padding: 10px;
     display: inline;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
 }
 input{
     float: right;
@@ -102,13 +116,16 @@ label
 {
     height: 250px;
     width: 770px;
-    background-color: beige;
+    background-color: white;
     float: right;
     margin-top: 10px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 #Save
 {
+    width: 100px;
     float: right;
     margin-right: 460px;
     margin-left: 140px;

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 250px;
+            border: 3px solid rgb(69, 51, 51);
+            background-color: rgba(234, 195, 222, 0.797);
+            margin: 20px;
+        }
+        .parent{
+            height: 350px;
+            width: 1200px;
+            display: inline-flex;
+            background-color: whitesmoke;
+            border: none;
+        }
+        .txy:hover{
+            transform: translate(50px,20px);
+        }
+        .tx:hover{
+            transform: translateX(50px);
+        }
+        .ty:hover{
+            transform: translatey(50px);
+        }
+        .rxy:hover{
+            transform: rotate(60deg);
+        }
+        .rx:hover{
+            transform: rotateX(60deg);
+        }
+        .ry:hover{
+            transform: rotateY(60deg);
+        }
+        .sxy:hover{
+            transform: scale(3);
+        }
+        .sx:hover{
+            transform: scaleX(2);
+        }
+        .sy:hover{
+            transform: scaleY(3);
+        }
+        .skxy:hover{
+            transform: skew(10deg);
+        }
+        .skx:hover{
+            transform: skewX(100deg);
+        }
+        .sky:hover{
+            transform:  skewy(60deg);
+        }
+        .mxy:hover{
+            transform: matrix(0.2, 3, -3, 0.2, 50, 50);
+        }
+        #rz:hover{
+            transform: rotateZ(80deg);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Transform property</h1>
+        <hr>
+        <h2> 2D property values</h2>
+    </center>
+    <h3> Translate()</h3>
+    <div class="parent">
+      <div class="txy"> Translate x and y</div>
+      <div class="tx"> Translate X</div>
+      <div class="ty" style="float: right;">Translate y</div>
+    </div><hr>
+    <h3> Rotate()</h3>
+    <div class="parent" style="display: block; height: 1000px;">
+        <div class="rxy"></div>
+        <div class="rx"></div>
+        <div class="ry"></div>
+    </div><hr>
+    <h3> Scale()</h3>
+    <div class="parent">
+        <div class="sxy"> SCALE X and Y</div>
+        <div class="sx">SCALE X </div>
+        <div class="sy">SCALE Y</div>
+    </div><hr>
+    <h3> Skew()</h3>
+    <div class="parent">
+        <div class="skxy"> SKEWX and Y</div>
+        <div class="skx">SKEWX X </div>
+        <div class="sky">SKEW Y</div>
+    </div>
+    <hr>
+    <h3> Matrix(scalex(), Skewy(), skewx(), scaley(), trx() , try())</h3>
+    <div class="parent">
+        <div class="mxy">Matrix</div>
+    </div>
+    <center><h2> 3D property values</h2></center><hr>
+    <div id="tz">tz</div>
+    <div id="rz">rz</div>
+    <div id="sz">sz</div>
+    <div id="kz">kz</div>
+</body>
+</html>

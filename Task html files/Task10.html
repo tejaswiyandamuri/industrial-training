@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+         body{
+            background-color: rgb(200, 218, 218);
+            font-family: 'Roboto', sans-serif;
+        }
+        .top{
+            height: 70px;
+            width: auto;
+            background-color: #2E4374;
+            color: aliceblue;
+            letter-spacing: 2px;
+            text-align: center;
+            padding-top: 35px;
+        }
+        .left{
+            height: 360px;
+            width: 320px;
+            float: left;
+            padding: 20px;
+        }
+        form{
+            width: 320px;
+            padding: 2px;
+        }
+        .left input,button{
+            height: 30px;
+            width: 310px;
+            text-align: center;
+            margin: 5px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-color: rgb(135, 134, 134);
+        }
+        .left button{
+            height: 35px;
+            background-color: #2E4374;
+            color: white;
+            letter-spacing: 2px;
+            border-radius: 5px;
+        }
+        hr{
+            width: 130px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: rgb(77, 77, 77);
+        }
+        .hr1{
+            float: left;
+        }
+        .hr2{
+            float: right;
+        }
+        .right{
+            height: 600px;
+            width: 800px;
+            float: right;
+            margin: 40px;
+            padding: 10px;
+            margin-top: 20px;
+            color: white;
+        }
+        .right h2{
+            color: black;
+        }
+        .righttop{
+            height: 130px;
+            width: 735px;
+            background-color: #2E4374;
+            border-radius: 20px;
+            padding: 30px;
+            position: relative;
+        }
+        .icon{
+            position: absolute;
+            top: 30px;
+            right: 100px;
+            color: aliceblue;
+        }
+        .rightbottom{
+            height: 200px;
+            width: 160px;
+            margin-right: 10px;
+            border-radius: 5px;
+            background-color: rgb(110, 110, 110);
+            float: left;
+            padding: 15px;
+        }
+        .rightbottom i{
+            font-size: 40px;
+            margin: 15px;
+            color: rgb(223, 236, 231);
+        }
+    </style>
+</head>
+<body>
+    <div class="top"> <h1> WEATHER DASHBOARD</h1></div>
+    <div class="left">
+        <form action="">
+            <label for=""> Enter location :</label><br><br>
+            <input type="text" placeholder="Eg. Delhi, India" style="border: 1px solid black;"><br>
+            <button> Search</button>
+            <hr class="hr1">&nbsp;&nbsp;&nbsp;&nbsp;or<hr class="hr2">
+            <button style="background-color: rgb(110, 110, 110);"> Use current location</button>            
+        </form>
+    </div>
+    <div class="right">
+        <div class="righttop">
+            <h3> Delhi (2019-1-1)</h3><br>
+            <h4> Temperature: 29 <sup>0</sup> C</h4> <br>
+         <h4>Humidity: 60%</h4><br>
+            <h4> Rain Chances: 70%</h4>
+            <div class="icon"><i class="fa-solid fa-cloud-sun-rain" style="font-size: 100px;"></i></div>
+        </div><br>
+        <h2> 4- day forecast</h2><br>
+        <div class="rightbottom">
+            <h3> 2019-1-2</h3>
+            <i class="fa-solid fa-cloud-sun"></i>
+            <h4> Temperature: 33 <sup>0</sup> C</h4> <br>
+            <h4>Humidity: 20%</h4><br>
+            <h4> Rain Chances: 20%</h4><br>
+        </div>
+        <div class="rightbottom">
+            <h3> 2019-1-3</h3>
+            <i class="fa-solid fa-cloud-sun"></i>
+            <h4> Temperature: 33 <sup>0</sup> C</h4> <br>
+            <h4>Humidity: 20%</h4><br>
+            <h4> Rain Chances: 20%<h4>
+        </div>
+        <div class="rightbottom">
+            <h3> 2019-1-4</h3>
+            <i class="fa-solid fa-smog"></i>
+            <h4> Temperature: 29 <sup>0</sup> C</h4> <br>
+            <h4>Humidity: 50%</h4><br>
+            <h4> Rain Chances: 30%</h4>
+        </div>
+        <div class="rightbottom">
+            <h3> 2019-1-5</h3>
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+            <h4> Temperature: 29 <sup>0</sup> C</h4> <br>
+            <h4>Humidity: 60%</h4><br>
+            <h4> Rain Chances: 70%</h4>
+        </div>
+    </div>
+</body>
+</html>
